@@ -18,7 +18,9 @@ cd {DIRNAME}
 git clone https://github.com/MRodz/docker-context.git
 ```
 Then build the image (this will take some time):
-`sudo docker build -t {YOUR_TAG}`
+```
+sudo docker build -t {YOUR_TAG}
+```
 
 __Note:__ In case you have a separate UNIX group for Docker you can omit `sudo`. For more information about this, have a look at [this Docker help page](https://docs.docker.com/install/linux/linux-postinstall/).
 
