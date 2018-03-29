@@ -12,7 +12,8 @@ Install Docker according to the [Docker installation guide](https://docs.docker.
 
 Make a directory for this repository and clone it:
 
-```mkdir {DIRNAME}
+```
+mkdir {DIRNAME}
 cd {DIRNAME}
 git clone https://github.com/MRodz/docker-context.git
 ```
@@ -33,4 +34,4 @@ Feel free to submit pull requests to improve this Dockerfile.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
