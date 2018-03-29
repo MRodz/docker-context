@@ -1,0 +1,21 @@
+FROM ubuntu:16.04
+
+# bringing Ubuntu up to date
+RUN apt-get clean &&\
+    apt-get update &&\
+    apt-get autoclean -y &&\
+    apt-get autoremove -y &&\
+		apt-get install -f -y apt-utils &&\
+		apt-get install -y wget &&\
+		apt-get install -y rsync
+
+# install Ruby as prerequisite of ConTeXt
+RUN	apt-get install -y ruby-full
+
+# install ConTeXt
+RUN	mkdir ~/context &&\
+  	cd ~/context &&\
+  	wget http://minimals.contextgarden.net/setup/first-setup.sh &&\
+		sh ./first-setup.sh --modules=all
+
+
