@@ -1,6 +1,6 @@
 # ConTeXt Docker image
 
-This Docker image runs ConTeXt standalone on Ubuntu 16.04 in order to guarantee a stable environment that leads to reproducible results for your ConTeXt compilation.
+This Docker image runs [ConTeXt](http://wiki.contextgarden.net/Main_Page) standalone on Ubuntu 16.04 in order to guarantee a stable environment that leads to reproducible results for your ConTeXt compilation.
 
 
 ## Prerequisites
