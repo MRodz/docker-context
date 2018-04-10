@@ -19,6 +19,3 @@ RUN apt-get install -y ruby-full
 # install ConTeXt
 RUN wget http://minimals.contextgarden.net/setup/first-setup.sh &&\
     sh ./first-setup.sh --modules=all
-
-# setting ConTeXt root
-CMD ./settings.sh
