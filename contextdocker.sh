@@ -1,3 +1,3 @@
 #!/bin/bash
-
-docker run --rm -i -h CONTAINER -v $PWD:/data bdn
+IMAGE=bdn
+docker run --rm -it -h CONTAINER -v $PWD:/data "$IMAGE"
